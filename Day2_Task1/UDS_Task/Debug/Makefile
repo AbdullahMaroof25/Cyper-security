@@ -38,8 +38,6 @@ SUBDIRS :=  \
 ../LIB \
 ../MCAL \
 ../MCAL/GPIO \
-../MCAL/EXTI \
-../MCAL/TIMERS \
 ../MCAL/UART \
 ../HAL
 

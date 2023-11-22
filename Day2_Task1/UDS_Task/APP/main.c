@@ -33,6 +33,7 @@ int main(void)
 	dio_vidConfigChannel(DIO_PORTC,DIO_PIN7,OUTPUT);
 	dio_vidWriteChannel(DIO_PORTC,DIO_PIN7,STD_LOW);
 	lcd_vidInit();
+	lcd_vidDisplyStr("Hello");
 	UART_setRxCallback(RX_CallBack);
 	UART_Init(UART_BAUDRATE_9600);
     srand(time(NULL));
